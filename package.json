@@ -1,0 +1,16 @@
+{
+  "name": "nox-camera-server",
+  "version": "0.1.0",
+  "main": "lib/server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asaarinen/nox-camera-server.git"
+  },
+  "author": "Antti Saarinen <antti.p.saarinen@gmail.com>",
+  "dependencies": {
+    "twilio": "~1.1.4",
+    "express": "~3.4.0",
+    "async": "~0.2.9",
+    "nox-app-template": "~0.1.0"
+  }
+}

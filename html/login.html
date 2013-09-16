@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="ico/favicon.png">
+
+    <title>Kirjaudu</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/template.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1>Kirjaudu</h1>
+      <form role="form" onsubmit="return false;">
+	<div class="form-group">
+	  <label for="inputUserName">Tunnus</label>
+	  <input type="text" class="form-control" id="inputUserName" name="username" placeholder="" value="">
+	</div>
+	<div class="form-group" onsubmit="return false;">
+	  <label for="inputPassword">Salasana</label>
+	  <input type="password" class="form-control" id="inputPassword" name="password" placeholder="">
+	</div>
+	<button id="loginbtn" type="submit" class="btn btn-default">Kirjaudu</button>
+      </form>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>    
+    <script src="js/nox-client.js"></script>
+  </body>
+</html>
