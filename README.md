@@ -1,9 +1,9 @@
 nox-camera-server
 ============
 
-A hobby project to store and display pictures taken by security cameras at home. Built with <a href="https://github.com/asaarinen/nox.js">Nox.js</a>.
+A hobby project to store and display pictures taken by security cameras at home. Built with <a href="https://github.com/asaarinen/nox.js">Nox.js</a>, hence the name.
 
-Currently being used with Axis 211 series cameras (see <a href="http://www.axis.com/products/cam_211/">here</a>), but should work with any IP cameras that can be configured to send images via HTTP POST.
+Currently being used with Axis 211 series cameras (see <a href="http://www.axis.com/products/cam_211/">here</a>), but should work with any IP cameras that can be configured to send images via HTTP POST. This should be almost all cameras on the market.
 
 Installation
 --
