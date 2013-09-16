@@ -5,6 +5,8 @@ A hobby project to store and display pictures taken by security cameras at home.
 
 Currently being used with Axis 211 series cameras (see <a href="http://www.axis.com/products/cam_211/">here</a>), but should work with any IP cameras that can be configured to send images via HTTP POST. This should be almost all cameras on the market.
 
+![Screen shot](https://raw.github.com/asaarinen/nox-camera-server/master/img/screenshot.png)
+
 Installation
 --
 
