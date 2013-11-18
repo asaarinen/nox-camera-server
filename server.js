@@ -164,13 +164,13 @@ async.waterfall([
 	log('starting server at port ' + port);
 	var serverinst = noxapp.httpServer.listen(port);
 
-	var cleaner = setTimeout(api.clean, 24 * 60 * 60 * 1000);
+	var cleaner = setInterval(api.clean, 24 * 60 * 60 * 1000);
 	
 	process.on('SIGINT', function() {
 	    log('stopping server gracefully');
 	    serverinst.close();
 	    log('stopping interval timer');
-	    clearTimeout(cleaner);
+	    clearInterval(cleaner);
 	    process.on('exit', function() {
 		log('server stopped gracefully');
 	    });
